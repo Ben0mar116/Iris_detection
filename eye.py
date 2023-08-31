@@ -33,8 +33,8 @@ def main() :
         # imageRGB = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         
         image  , results = tracker.eyeFinder(image)
-        tracker.positionFinder(image)
-        # tracker.iris_catcher(image)
+        # tracker.positionFinder(image)
+        tracker.iris_catcher(image)
 
         # Visualize the Left and Region by drawing a rectangle on it on the actual image.
         
